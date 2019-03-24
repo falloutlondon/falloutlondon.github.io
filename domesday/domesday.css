@@ -1,0 +1,10 @@
+body {	
+	background-image: url(backgroundLeft.png), url(backgroundRight.png);
+	background-position: left top, right top;
+	background-repeat: repeat-y, repeat-y;
+	background-size: 10%;
+	margin: 10%; 
+	margin-top: 0%; 
+	padding: 0; 
+	background-color: white; 
+}
