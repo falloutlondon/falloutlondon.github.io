@@ -1,0 +1,1 @@
+This subdirectory should be used exclusively by anyone working on the London Domesday text.
