@@ -2,9 +2,87 @@ body {
 	background-image: url(backgroundLeft.png), url(backgroundRight.png);
 	background-position: left top, right top;
 	background-repeat: repeat-y, repeat-y;
-	background-size: 10%;
-	margin: 10%; 
+	background-size: 50%;
+	margin: 5vw; 
 	margin-top: 0%; 
-	padding: 0; 
+	padding-top: 0px; 
 	background-color: white; 
+	font-size: 2vw;
 }
+
+.siteHeader {
+	color: #D9D9D6;
+	text-align: center;
+}
+
+.domesdayTitle {
+	font-size: 14vh;
+}
+
+.domesdaySubtitle {
+	font-size: 7vh;
+}
+
+.domesdayTop {
+	background-image: url(backgroundTop.png);
+	background-size: 100%;
+	background-repeat: round;
+	height: 10vh;
+}
+
+.domesdayContent {
+	background-image: url(backgroundCenter.png);
+	background-repeat: round;
+	background-size: 100%;
+	padding-top: 0px;
+	width: 100%;
+	top: 0px;
+	bottom: 0px;
+	color: #84715A;
+}
+
+.domesdayBottom {
+	background-image: url(backgroundBottom.png);
+	background-size: 100%;
+	background-repeat: round;
+	height: 10vh;
+}
+
+.chapterTitle {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	font-size: 6vh;
+	text-align: center;
+}
+
+.chapterSubtitle {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-top: 5vh;
+	padding-bottom: 0vh;
+	font-size: 5vh;
+	text-align: left;
+}
+
+.listTitle {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-top: 1vh;
+	padding-bottom: 0vh;
+	font-size: 4vh;
+	text-align: center;
+}
+
+.listContent {
+	padding-left: 10vw;
+	padding-right: 5vw;
+	padding-top: 0vh;
+	padding-bottom: 0vh;
+	font-size: 4vh;
+	text-align: left;
+}
+}
+
+
