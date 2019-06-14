@@ -1,0 +1,90 @@
+html, body {margin: 0%; padding: 0; background-color: #27251F; font-family: "arial", arial, sans-serif; color: #FFFFFF;}
+hr {width: 90%; color: #EE2C2B; height: 0.2vw; background-color: #EE2C2B; border: none;}
+
+a{color: #FFFFFF; text-decoration: none;}
+a:visited {color: #FFFFFF;}
+a:focus {color: #75FFFF;}
+a:hover {color: #75FFFF;}
+a:active {color: #75FFFF; filter: brightness(70%);}
+.pageContainer {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.marginContainer {
+	width: 14%;
+	background-color: white;
+	border-right-style: solid;
+	border-right-width: 0.4vw;
+	border-right-color: orange;
+}
+
+.marginAnchor {
+	position: fixed;
+	width: 14%;
+	border-right-style: solid;
+	border-right-width: 0.2vw;
+	border-right-color: #EE2C2B;
+	height: 100%;
+}
+
+.marginLogo img {
+	width: 100%;
+}
+
+.marginLogo img:hover{
+	filter: brightness(120%);
+}
+
+.marginList {
+	line-height: 3vw;
+	font-size: 2.4vw;
+	padding: 5%;
+}	
+
+.contentContainer {
+	float:right;
+	width: 86%;
+	background-color: #27251F;
+}
+
+.contentBox {
+	margin: 2.5%;
+}
+
+.contentBoxHeader p {
+	font-size: 3.5vh;
+	line-height: 0vh;
+}
+
+.contentAuthorAndDate p {
+	font-size: 1.5vh;
+	line-height: 0vh;
+}
+.contentBoxImage {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.contentBoxImage img{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.contentBoxText p {
+	font-size: 2.5vh;
+}
+
+.contentBoxLink {
+	font-size: 2.5vh;
+	line-height: 0vh;
+}
+	
+.contentBoxLink a{color: #75FFFF; text-decoration: none;}
+.contentBoxLink a:visited {color: #75FFFF;}
+.contentBoxLink a:focus {color: #75FFFF; filter: brightness(150%);}
+.contentBoxLink a:hover {color: #75FFFF; filter: brightness(150%);}
+.contentBoxLink a:active {color: #75FFFF; filter: brightness(70%);}
