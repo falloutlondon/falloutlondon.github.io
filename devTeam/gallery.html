@@ -7,9 +7,9 @@
 	<meta name='keywords' content='fallout, london, mod'>
 	<meta name='author' content='Emily Warr'>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-	<link rel='stylesheet' type='text/css' href='FoLondon.css'>
+	<link rel='stylesheet' type='text/css' href='../FoLondon.css'>
 	<meta charset='utf-8'>
-	<link rel='icon' href='favicon.png'>
+	<link rel='icon' href='../favicon.png'>
 	
 </head>
 <body>
@@ -17,7 +17,7 @@
 		<div class='marginContainer'>
 			<div class='marginAnchor'>
 				<div class='marginLogo'>
-					<a href='index.html'><img src='logo.png' alt='Fallout: London'></a>
+					<a href='index.html'><img src='../logo.png' alt='Fallout: London'></a>
 				</div>
 			
 				<div class='marginList'>
@@ -34,20 +34,20 @@
 		
 		
 		<div class='contentContainer'>
+			<!--NEWS POST: The Walls.-->
 			<div class='galleryContainer'>
-				<div class='galleryColumn'>
-					<img id='gallerImg' onclick='enlargeImage(this)' src='gallery/jollyjack-conceptart-thewalls.png' alt='The Walls (Concept Art), By jollyjack.'>
-				</div>
-				<div class='galleryColumn'>
-					<img id='gallerImg' onclick='enlargeImage(this)' src='gallery/jollyjack-conceptart-detective.jpg' alt='Detective (Concept Art), By jollyjack.'>
-				</div>
-				<div class='galleryColumn'>
-					<img id='gallerImg' onclick='enlargeImage(this)' src='gallery/strokahof-conceptart-raven.jpg' alt='Raven (Concept Art), By Strokahof.'>
-				</div>
-				<div class='galleryColumn'>
-					<img id='gallerImg' onclick='enlargeImage(this)' src='gallery/strokahof-conceptart-sebastiangaunt.jpg' alt='Sebastian Guant (Concept Art), By Strokahof.'>
-				</div>
+				<img id='gallerImg' onclick='enlargeImage(this)' src='../gallery/thewalls.png' alt='The Walls. By jollyjack'>
+				<img id='gallerImg' onclick='enlargeImage(this)' src='../gallery/detective.jpg' alt='Detective. By jollyjack'>
+				<img id='gallerImg' onclick='enlargeImage(this)' src='../gallery/thewalls.png' alt='The Walls. By jollyjack'>
+				<img id='gallerImg' onclick='enlargeImage(this)' src='../gallery/thewalls.png' alt='The Walls. By jollyjack'>
 			</div>	
+		
+			<hr>
+			
+			<!--END POST: New Website.-->
+		
+		
+		
 		</div>
 	</div>
 	</div>
@@ -56,7 +56,6 @@
 	<div id='enlargedImage' class='enlargedImage'>
 		<button class='button' onclick='exitImage()' id='closeButton'>X</button>
 		<img id='enlargedGalleryImg' src='' alt=''>
-		<p id='enlargedGalleryText'>EE</p>
 	</div>
 <script>
 function enlargeImage(selectedImage) {
@@ -64,7 +63,6 @@ function enlargeImage(selectedImage) {
 	document.getElementById('enlargedImageBackground').style.display = 'block';
 	document.getElementById('enlargedImage').style.display = 'block';
 	document.getElementById('enlargedGalleryImg').src = selectedImage.src;
-	document.getElementById('enlargedGalleryText').innerHTML = selectedImage.alt;
 }
 
 function exitImage() {
