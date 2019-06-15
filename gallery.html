@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Gallery ｜ Fallout: London </title>
+	
+	<meta name="description" content="The gallery for Fallout: London.">
+	<meta name="keywords" content="fallout, london, mod">
+	<meta name="author" content="Emily Warr">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="FoLondon.css">
+	<meta charset="utf-8">
+	<link rel="icon" href="favicon.png">
+	
+</head>
+<body>
+	<div class='pageContainer'>
+		<div class='marginContainer'>
+			<div class='marginAnchor'>
+				<div class='marginLogo'>
+					<a href="index.html"><img src="logo.png" alt="Fallout: London"></a>
+				</div>
+			
+				<div class='marginList'>
+					<i><b>
+					<a href="index.html">News</a><br>
+					<a href="devTeam.html">Dev Team</a><br>
+					<a href="gallery.html">Gallery</a><br>
+					<a href="domesday.html">Domesday</a><br>
+					<a href="discord.html">Discord</a><br>
+					</i></b>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class='contentContainer'>
+			<!--NEWS POST: The Walls.-->
+			<div class='contentBox'>
+				<div class='contentBoxImage'>
+					<img id="gallerImg" src="gallery/thewalls.png" alt="The Walls. By jollyjack">
+					<img id="gallerImg" src="gallery/thewalls.png" alt="The Walls. By jollyjack">
+					<img id="gallerImg" src="gallery/thewalls.png" alt="The Walls. By jollyjack">
+					<img id="gallerImg" src="gallery/thewalls.png" alt="The Walls. By jollyjack">
+					
+				</div>
+			</div>
+		
+			<hr>
+			
+			<!--END POST: New Website.-->
+		
+		
+		
+		</div>
+	</div>
+	</div>
+	<div id='enlargedImageBackground' class='enlargedImageBackground'>
+	</div>
+	<div id='enlargedImage' class='enlargedImage'>
+		<button class="button" onclick="exitImage()" id="closeButton">X</button>
+		<img id="galleryImg" src="gallery/thewalls.png" alt="The Walls. By jollyjack">
+	</div>
+<script>
+function exitImage() {
+	console.log('Closing enlarged image.')
+	document.getElementById("enlargedImageBackground").style.display = "none";
+	document.getElementById("enlargedImage").style.display = "none";
+}
+
+
+</script>
+</body>
+</html>
