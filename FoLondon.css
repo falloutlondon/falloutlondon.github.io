@@ -131,13 +131,12 @@ a:active {color: #75FFFF; filter: brightness(70%);}
 	max-width: 70vw;
 	max-height: 50vh;
 	transform: translateY(-50%);
-	
 	position: absolute;
-    margin: auto;
-    top: 30vh;
-    left: 0;
-    right: 0;
-    bottom: 0;
+	margin: auto;
+	top: 30vh;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 .enlargedImage p {
