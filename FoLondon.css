@@ -91,7 +91,9 @@ a:active {color: #75FFFF; filter: brightness(70%);}
 
 .galleryContainer img {
 	cursor:pointer;
-	width: 20vw;
+	width: 19vw;
+	padding-top: 1vh;
+	padding-bottom: 0.5vh;
 }
 
 .galleryContainer img:visited {}
@@ -103,10 +105,9 @@ a:active {color: #75FFFF; filter: brightness(70%);}
 	text-align: center;
 	position: relative;
 	float: left;
-	width: 21vw;
+	width: 20vw;
 	padding-left: 0.25vw;
 	padding-right: 0.25vw;
-	padding-top: 0.5vw;
 }
 
 .enlargedImageBackground {
